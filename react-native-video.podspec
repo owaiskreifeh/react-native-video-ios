@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.subspec "Video" do |ss|
     ss.dependency "YouboraAVPlayerAdapter", "6.3.3"
     ss.dependency "YouboraLib", "6.3.9"
+    ss.dependency "GoogleAds-IMA-tvOS-SDK", "4.3.1"
     ss.source_files  = "ios/Video/*.{h,m}"
     s.static_framework = true
   end
